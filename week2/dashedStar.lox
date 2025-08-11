@@ -1,0 +1,13 @@
+var rotate = 0;
+var move = 0;
+
+print("clearscreen");
+while (rotate < 5){ 
+	while(move < 10){
+		print("fd 5 pu fd 5 pd");
+		move = move + 1;
+	}
+	print("rt 144");
+	move = 0;
+	rotate = rotate + 1;
+}
